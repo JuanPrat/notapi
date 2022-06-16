@@ -1,0 +1,16 @@
+.nav-div {
+    display: flex;
+    background-color: grey;
+    height: 86px;
+    width: 100vw;
+    justify-content: center;
+}
+
+.square {
+    height: 86px;
+    width: 100px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
