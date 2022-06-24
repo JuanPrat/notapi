@@ -1,16 +1,44 @@
 .nav-div {
     display: flex;
-    background-color: grey;
-    height: 86px;
-    width: 100vw;
+    background-color: rgb(216, 216, 216);
+    height: 80px;
+    width: 95vw;
     justify-content: center;
+    border-radius: 15px;
 }
 
-.square {
-    height: 86px;
+.logo {
+    height: auto;
+    margin: 5px;
     width: 100px;
-    background-color: red;
+    background-color: cadetblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 25px 10px;
+    transition: 0.5s;
 }
+
+.logo:hover {
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+.nav__action__button{
+    width: 75px;
+    margin: 20px;
+    border-radius: 10px;
+    height: auto;
+    transition: 0.5s;
+}
+
+.nav__action__button:hover {
+    background-color: lightgreen;
+    transition: 2s;
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+
+
+
+
