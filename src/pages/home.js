@@ -9,7 +9,7 @@ export const Home = (props) => {
             <section className='home__central__section'>
             <Navbar></Navbar>
                 <h1>
-                    Welcome to NotApi
+                    Bienvenidos a NotApi
                 </h1>
             </section>
 

@@ -10,13 +10,19 @@
 .logo {
     height: auto;
     margin: 5px;
-    width: 100px;
+    width: auto;
     background-color: cadetblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 25px 10px;
     transition: 0.5s;
+}
+
+.logo h3 {
+    
+    margin: 20px;
+
 }
 
 .logo:hover {
@@ -28,7 +34,7 @@
     width: 75px;
     margin: 20px;
     border-radius: 10px;
-    height: auto;
+    height:  50px;
     transition: 0.5s;
 }
 

@@ -1,0 +1,19 @@
+.uploadgrades__landing {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.uploadgrades__landing h1 {
+    margin: 50px
+}
+
+.uploadgrades__section__form{
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
